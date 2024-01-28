@@ -35,10 +35,7 @@ To run the application, ensure you have the required dependencies installed, the
 
 - `app.py`: Main script containing the Streamlit application code.
 - `llm.py`: Contains functions for initializing LLM (Language Model) instances.
-- `prompt2.py`: Provides functions for retrieving prompts based on roles.
-- `langchain/tools.py`: Implements various tools used in the application.
-- `langchain/agents.py`: Defines agents for interacting with AI models.
-- `langchain/callbacks.py`: Handles callbacks for UI updates.
+- `prompt.py`: Provides functions for retrieving prompts based on roles.
 
 ## Note
 
