@@ -1,7 +1,7 @@
 import streamlit as st
 from llm import get_llm, memory, history
 from dotenv import load_dotenv
-from prompt2 import get_prompt, get_roles
+from prompt import get_prompt, get_roles
 from langchain.tools import DuckDuckGoSearchRun
 from langchain.agents import initialize_agent, AgentType
 from langchain.callbacks import StreamlitCallbackHandler
